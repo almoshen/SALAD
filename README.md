@@ -8,25 +8,10 @@
 [Juil Koo\*](https://63days.github.io/), [Seungwoo Yoo\*](https://dvelopery0115.github.io/), [Minh Hieu Nguyen\*](https://min-hieu.github.io/), [Minhyuk Sung](https://mhsung.github.io/) <br>
 \* denotes equal contribution.
 
-### 🎉 This paper got accepted to ICCV 2023!
 
 # Introduction
 This repository contains the official implementation of 🥗 **SALAD: Part-Level Latent Diffusion for 3D Shape Generation and Manipulation**.<br>
 **SALAD** is a 3D shape diffusion model which generates high-quality shapes and hints its zero-shot capability in various shape manipulation applications. More results can be viewed with a 3D viewer on the [project webpage](https://salad3d.github.io).
-
-[//]: # (### Abstract)
-> We present a cascaded diffusion model based on a part-level implicit 3D representation. Our model achieves state-of-the-art generation quality and also enables part-level shape editing and manipulation without any additional training in conditional setup. Diffusion models have demonstrated impressive capabilities in data generation as well as zero-shot completion and editing via a guided reverse process. Recent research on 3D diffusion models has focused on improving their generation capabilities with various data representations, while the absence of structural information has limited their capability in completion and editing tasks. We thus propose our novel diffusion model using a part-level implicit representation. To effectively learn diffusion with high-dimensional embedding vectors of parts, we propose a cascaded framework, learning diffusion first on a low-dimensional subspace encoding extrinsic parameters of parts and then on the other high-dimensional subspace encoding intrinsic attributes. In the experiments, we demonstrate the outperformance of our method compared with the previous ones both in generation and part-level completion and manipulation tasks.
-
-# UPDATES
-
-- [x] Training code of SALAD with Chair class. (May 8th 2023)
-- [x] Training code of *text-conditioned* SALAD. (May 8th 2023)
-- [x] Demo of *text-guided* shape generation.  (May 8th 2023)
-- [x] Code of generation of more classes. (Sep. 17th 2023)
-- [x] Demo of part completion.
-- [ ] Demo of part mixing and refinement.
-- [ ] Demo of text-guided part completion.
-
 
 # Get Started
 
