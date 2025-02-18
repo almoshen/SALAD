@@ -20,7 +20,7 @@ This repository contains the official implementation of 🥗 **SALAD: Part-Level
 For main requirements, we have tested the code with Python 3.9, CUDA 11.3 and Pytorch 1.12.1+cu113.
 
 ```
-git clone https://github.com/63days/salad/
+git clone https://github.com/almoshen/SALAD.git
 cd SALAD
 conda env create -f environment.yml
 conda activate salad
